@@ -1,0 +1,91 @@
+.Notification button {
+    width: 90%;
+    margin: 5px;
+    background: whitesmoke;
+    color: dimgray;
+    padding: 0px;
+    font-size: 1em;
+    font-weight: 350;
+    text-align:  left;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    left: 5px;
+}
+
+.Notification button:hover {
+    background: rgb(226, 224, 224);
+}
+
+.Notification button i {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.paragraph {
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.05em;
+    color: darkslategray;
+}
+
+.todo {
+    margin-bottom: 40px;
+}
+
+.hovering {
+    color: dodgerblue;
+    margin-bottom: 0px;
+    font-size: 0.9em;
+}
+
+.hovering:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nonhovering {
+    margin-top: 0px;
+    font-size: 0.85em;
+    margin-left: 23px;
+}
+
+.coursegroup {
+    color: dodgerblue;
+    font-weight: 350;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.coursegroup:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.horizontal {
+    border-top: 1px solid lightgray;
+    width: 90%;
+    left: 0px;
+    margin: 0px 0px 0px 5px;
+}
+
+.subpart div {
+    display: inline-block;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+.middle i {
+    margin-right: 10px;
+}
+
+.middle span {
+    margin-right: 100px;
+}
+
+.p {
+    color: darkgray;
+    font-size: 0.9em;
+}

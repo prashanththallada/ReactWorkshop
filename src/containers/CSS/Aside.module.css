@@ -1,0 +1,29 @@
+.Header button i {
+    font-size: 36px;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.Header button i:hover {
+    color: #394b58;
+}
+
+.Header button:hover {
+    background: ghostwhite;
+    color: #394b58;
+}
+
+.Header button {
+    border: none;
+    background: none;
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+.top {
+    margin-top: 30px;
+}

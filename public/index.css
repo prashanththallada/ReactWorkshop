@@ -1,0 +1,33 @@
+#subRoot {
+    float: left; 
+    width: 75%;  
+    margin-left: 5%;
+}
+
+#Aside{
+    float: left;
+    position: fixed;
+    width: 5%;
+    background: #394b58;
+    color: ghostwhite;
+    height: 100%;
+}
+
+#notification {
+    float: right;
+    width: 20%;
+    height: 100%;
+    margin-top: 15px;
+}
+
+#header {
+    float: right;
+    width: 95%;
+    margin-left: 5%;
+}
+
+#root {
+    float: right;
+    margin-top: 3%;
+    width: 95%;
+}

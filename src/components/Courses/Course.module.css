@@ -1,0 +1,26 @@
+.Course button{
+    padding: 0px 35px;
+    height: 30px;
+    text-align: center;
+    background: whitesmoke;
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 0.81em;
+}
+
+.Course button i {
+    font-size: 1.1em;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.Course{
+    display: inline-block;
+}
+
+.Course button:hover {
+    text-decoration: underline;
+    background: rgb(4, 59, 4);
+    color: whitesmoke;
+}

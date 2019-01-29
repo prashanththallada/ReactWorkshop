@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+.image{
+  margin-top: 20px;
+}
+
+.image img{
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  box-shadow: 20px 25px 30px rgba(29, 28, 28, 0.753);
+  border-radius: 5px;
+}
+
+.Course{
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerMain{
+  margin-top: 50px;
+  display: flex;
+  width: 90%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerMain p{
+  display: inline-block;
+  font-size: 1.2em;
+  background: rgb(4, 59, 4);
+  color: whitesmoke;
+  padding: 10px 40px;
+  height: 30px;
+  text-align: center;
+  margin: 0px;
+  flex: 1;
+}
+
+.headerMain :hover {
+  text-decoration: underline;
+  color: black;
+  background: whitesmoke;
+  border: 0.5px solid rgb(4, 59, 4);
+  height: 29px;
+}
+
+.Module {
+  border: 1px solid lightgray;
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.About{
+  width: 90%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  text-align: left;
+  color: darkslategray;
+}
+
+.subpart1 p {
+  font-weight: 500;
+  font-size: 1.5em;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.subpart1, .subpart2, .subpart3 {
+  margin-bottom: 20px;
+}
+
+.subpart2 p {
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 0px;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.subpart2 a {
+  color: dodgerblue;
+  padding-left: 30px;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.subpart2 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subpart3 p {
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 0px;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.subpart3 div {
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0px;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.subpart4 p{
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 0px;
+  padding-left: 30px;
+  margin: 0px;
+}
+
+.subpart4 ol {
+  padding-left: 60px;
+}
+
+.subpart4 li {
+  font-weight: 400;
+  font-size: 1.2em;
+  padding: 0px;
+}
+
+.moduleIntro {
+  border-bottom: 1px dotted lightgrey;
+  margin-bottom: 5px;
+  text-align: left;
+  padding: 0px 5px;
+}
+
+.moduleTutorial {
+  border: 1px solid lightgray;
+  width: 90%;
+  margin: auto;
+  list-style: none;
+  border-left: 4px solid green; 
+  text-align: left;
+  padding: 7px 20px;
+  font-size: 0.83em;
+  text-decoration: underline;
+}
+
+.moduleTutorial i {
+  margin-right: 10px;
+}
+
+.dotted{
+  border-bottom: 1px dashed #A5AFB5;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
